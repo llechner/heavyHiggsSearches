@@ -1,0 +1,4 @@
+INFO in xsecComputer.checkNCPUs() in 352: We run on a single cpu
+INFO in xsecComputer.computeForOneFile() in 182: Computing SLHA cross section from input.slha, adding to SLHA file.
+INFO in xsecComputer.compute() in 158: get LO cross sections from pythia6
+INFO in xsecComputer.addXSecToFile() in 236: SLHA file already contains XSECTION blocks. Adding only missing cross sections.

@@ -1,0 +1,17 @@
+SetDesc: "MMHT 2014 NNLO (fits for range of alpha_S values, evolve with 4 flavours maximum). This set has 3 member PDFs. mem=0 --> best-fit alpha_S(M_Z) = 0.118; mem=1-2 --> alpha_S(M_Z) = 0.117, 0.119. Website: www.hep.ucl.ac.uk/mmht"
+SetIndex: 25770
+Authors: L.A. Harland-Lang, A. D. Martin, P. Motylinski and R. S. Thorne
+Reference: arXiv:1510.02332
+Format: lhagrid1
+DataVersion: 2
+NumMembers: 3
+Particle: 2212
+Flavors: [-4, -3, -2, -1, 1, 2, 3, 4, 21]
+OrderQCD: 2
+FlavorScheme: variable
+NumFlavors: 4
+XMin: 1e-06
+XMax: 1
+QMin: 1
+QMax: 31622.8
+MZ: 91.1876

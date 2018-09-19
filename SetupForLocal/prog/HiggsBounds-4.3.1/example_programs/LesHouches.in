@@ -1,0 +1,41 @@
+BLOCK MODSEL  # Model selection
+     1     0   #  nonUniversal
+#
+BLOCK SMINPUTS  # Standard Model inputs
+         1     1.27908970E+02   # alpha_em^-1(M_Z)^MSbar
+         2     1.16637870E-05   # G_F [GeV^-2]
+         3     1.18400000E-01   # alpha_S(M_Z)^MSbar
+         4     9.11876000E+01   # M_Z pole mass
+         5     4.18000000E+00   # mb(mb)^MSbar
+         6     1.73200000E+02   # mt pole mass
+         7     1.77700000E+00   # mtau pole mass
+#
+BLOCK MINPAR  # Input parameters - minimal models
+         3     2.18700000E+01   # tanb
+#
+BLOCK EXTPAR  # Input parameters - non-minimal models
+         0    -1.00000000E+00   # Set
+         1     1.06489000E+03   # M_1(MX)
+         2     2.11141000E+03   # M_2(MX)
+         3     3.64713000E+03   # M_3(MX)
+        11    -3.43184000E+03   # At(MX)
+        12    -1.67758000E+03   # Ab(MX)
+        13    -3.05228000E+03   # Atau(MX)
+        23     2.32171000E+03   # mu(MX)
+        25     2.18700000E+01   # tanb
+        26     3.56778000E+03   # mA(pole)
+        31     3.67060000E+03   # meL(MX)
+        32     3.67060000E+03   # mmuL(MX)
+        33     3.89115000E+03   # mtauL(MX)
+        34     1.86406000E+03   # meR(MX)
+        35     1.86406000E+03   # mmuR(MX)
+        36     2.27773000E+03   # mtauR(MX)
+        41     1.53375000E+03   # mqL1(MX)
+        42     1.53375000E+03   # mqL2(MX)
+        43     1.81219000E+03   # mqL3(MX)
+        44     2.37283000E+03   # muR(MX)
+        45     2.37283000E+03   # mcR(MX)
+        46     2.71354000E+03   # mtR(MX)
+        47     1.02785000E+03   # mdR(MX)
+        48     1.02785000E+03   # msR(MX)
+        49     2.25439000E+03   # mbR(MX)

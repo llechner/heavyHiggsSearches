@@ -1,0 +1,44 @@
+ Warning, the following block is ignored
+ BLOCK SUSHI
+ Warning, the following block is ignored
+ BLOCK SU_ALGO  			# !OPTIONAL SUSPECT V>=2.3* BLOCK: ALGORITHM CONTROL PARAMETER
+ Problem while reading EXTPAR, ignoring unknown  (unsupported) entry          14   0.0000000000000000     
+ Problem while reading EXTPAR, ignoring unknown  (unsupported) entry          15   0.0000000000000000     
+ Problem while reading EXTPAR, ignoring unknown  (unsupported) entry          16   0.0000000000000000     
+ Problem while reading EXTPAR, ignoring unknown  (unsupported) entry          17   0.0000000000000000     
+ Problem while reading EXTPAR, ignoring unknown  (unsupported) entry          18   0.0000000000000000     
+ Problem while reading EXTPAR, ignoring unknown  (unsupported) entry          19   0.0000000000000000     
+ Warning, the following block is ignored
+ BLOCK DISTRIB
+ Warning, the following block is ignored
+ BLOCK SCALES
+ Warning, the following block is ignored
+ BLOCK RENORMBOT # RENORMALIZATION OF THE BOTTOM SECTOR
+ Warning, the following block is ignored
+ BLOCK RENORMSBOT # RENORMALIZATION OF THE SBOTTOM SECTOR
+ Warning, the following block is ignored
+ BLOCK PDFSPEC
+ Warning, the following block is ignored
+ BLOCK VEGAS
+ Warning, the following block is ignored
+ BLOCK FACTORS
+ Problem in unit LoopMassesMSSM_2
+ |mu|^2 < 0 at tree level,  reversing sign  -82778.122957959640     
+ Problem in unit LoopMassesMSSM_2
+ |mu|^2 < 0 at tree level,  reversing sign  -80654.943868606060     
+ Problem in unit LoopMassesMSSM_2
+ |mu|^2 < 0 at tree level,  reversing sign  -82656.677352295257     
+ Problem in unit LoopMassesMSSM_2
+ |mu|^2 < 0 at tree level,  reversing sign  -80539.048217824966     
+ Problem in unit LoopMassesMSSM_2
+ |mu|^2 < 0 at tree level,  reversing sign  -82648.153054581708     
+ Problem in unit LoopMassesMSSM_2
+ |mu|^2 < 0 at tree level,  reversing sign  -80530.806123202346     
+ Problem in unit LoopMassesMSSM_2
+ |mu|^2 < 0 at tree level,  reversing sign  -82647.499528573768     
+ Problem in unit LoopMassesMSSM_2
+ |mu|^2 < 0 at tree level,  reversing sign  -80530.174261111897     
+ Problem in unit LoopMassesMSSM_2
+ |mu|^2 < 0 at tree level,  reversing sign  -82647.449428885913     
+ Problem in unit LoopMassesMSSM_2
+ |mu|^2 < 0 at tree level,  reversing sign  -80530.125819100402     

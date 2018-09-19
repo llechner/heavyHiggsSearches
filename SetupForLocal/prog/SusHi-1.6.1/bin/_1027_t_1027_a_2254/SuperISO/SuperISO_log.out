@@ -1,0 +1,60 @@
+
+SuperIso v3.6 - F. Mahmoudi
+
+SLHA input file
+
+Observable			Value
+
+BR(b->s gamma)			3.320e-04
+delta0(B->K* gamma)		5.525e-02
+
+BR(Bs->mu mu)			3.231e-09
+BR(Bs->mu mu)_untag		3.542e-09
+BR(Bd->mu mu)			1.052e-10
+
+BR(B->K* mu mu)_low		2.267e-07
+AFB(B->K* mu mu)_low		-2.156e-03
+FL(B->K* mu mu)_low		7.602e-01
+AI(B->K* mu mu)_low		-2.806e-02
+
+q0^2(AFB(B->K* mu mu))		3.568e+00
+q0^2(AI(B->K* mu mu))		1.703e+00
+
+BR(B->K* mu mu)_high		1.186e-07
+AFB(B->K* mu mu)_high		4.200e-01
+FL(B->K* mu mu)_high		3.514e-01
+AI(B->K* mu mu)_high		-5.145e-05
+
+BR(B->Xs mu mu)_low		1.663e-06
+BR(B->Xs mu mu)_high		2.330e-07
+q0^2(AFB(B->Xs mu mu)		3.377e+00
+BR(B->Xs tau tau)_high		1.651e-07
+
+BR(B->tau nu)			8.173e-05
+R(B->tau nu)			9.983e-01
+
+BR(B->D tau nu)			6.952e-03
+AFB(B->D tau nu)		3.594e-01
+Ptau(B->D tau nu)		3.261e-01
+BR(B->D tau nu)/BR(B->D e nu)	3.075e-01
+
+BR(B->D* tau nu)		1.366e-02
+AFB(B->D* tau nu)		-5.673e-02
+Ptau(B->D* tau nu)		-4.891e-01
+PD*(B->D* tau nu)		4.644e-01
+BR(B->D* tau nu)/BR(B->D* e nu)	2.476e-01
+
+BR(Ds->tau nu)			5.126e-02
+BR(Ds->mu nu)			5.262e-03
+BR(D->mu nu)			4.090e-04
+BR(K->mu nu)/BR(pi->mu nu)	6.336e-01
+Rmu23(K->mu nu)			1.000e+00
+
+a_muon				3.844e-11
+
+excluded_Higgs_mass		0
+excluded_SUSY_mass		0
+charged_LSP			0
+
+output.flha generated
+

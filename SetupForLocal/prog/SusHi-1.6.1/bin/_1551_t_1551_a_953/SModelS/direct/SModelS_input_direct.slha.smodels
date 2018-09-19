@@ -1,0 +1,88 @@
+Input status: 1
+Decomposition output status: 1 #decomposition was successful
+# Input File: /home/lukas/Schreibtisch/Bino/SModelS-Setup-Bino/code/calculation/output/SModelS/direct/SModelS_input_direct.slha
+# maxcond = 0.2
+# minmassgap = 5.
+# ncpus = 1
+# sigmacut = 0.0000001
+# Database version: 1.1.1pre1
+================================================================================
+#Analysis  Sqrts  Cond_Violation  Theory_Value(fb)  Exp_limit(fb)  r  r_expected
+
+ATLAS-CONF-2013-047  8.00E+00    0.0  3.863E-04  2.520E+00  1.533E-04  1.840E-04
+ Signal Region:  A Medium
+ Txnames:  T2bb
+ Chi2, Likelihood =  3.952E-01  1.515E-02
+--------------------------------------------------------------------------------
+ATLAS-CONF-2013-053  8.00E+00    0.0  2.253E-05  1.300E+00  1.733E-05  1.720E-05
+ Signal Region:  SRB
+ Txnames:  T2bb
+ Chi2, Likelihood =  1.318E-02  3.077E-02
+--------------------------------------------------------------------------------
+ATLAS-CONF-2013-061  8.00E+00    0.0  2.380E-06  2.300E-01  1.035E-05  8.151E-06
+ Signal Region:  SR-0l-4j-A
+ Txnames:  T2bb
+ Chi2, Likelihood =  1.178E-01  1.922E-01
+--------------------------------------------------------------------------------
+ATLAS-CONF-2013-054  8.00E+00    0.0  7.303E-09  6.000E-01  1.217E-08  6.762E-09
+ Signal Region:  7j80 flavor >=2 b-jets
+ Txnames:  T5bbbb
+ Chi2, Likelihood =  1.228E+00  2.194E-02
+
+ 
+================================================================================
+The highest r value is = 0.000153305944629
+
+Total missing topology cross section (fb):  9.263E-02
+Total cross section where we are outside the mass grid (fb):  1.271E-01
+Total cross section in long cascade decays (fb):  6.771E-02
+Total cross section in decays with asymmetric branches (fb):  2.484E-02
+
+Full information on unconstrained cross sections
+================================================================================
+Missing topologies with the highest cross sections (up to 10):
+Sqrts (TeV)   Weight (fb)        Element description
+  8.0  6.529E-02    #                   [[[b],[b]],[[jet],[b],[b]]]
+  8.0  9.363E-03    #                                [[],[[b],[b]]]
+  8.0  8.269E-03    #                             [[[b]],[[b],[b]]]
+  8.0  5.321E-03    #                           [[[b],[b]],[[jet]]]
+  8.0  7.013E-04    #                             [[[b],[b]],[[l]]]
+  8.0  6.938E-04    #                        [[[b],[b]],[[nu],[l]]]
+  8.0  3.588E-04    #                 [[[b],[b]],[[b],[t],[b],[b]]]
+  8.0  3.130E-04    #                 [[[t],[b],[b]],[[t],[b],[b]]]
+  8.0  2.641E-04    #                     [[[W],[b]],[[t],[b],[b]]]
+  8.0  2.463E-04    #                 [[[b],[b]],[[t],[b],[b],[b]]]
+================================================================================
+Contributions outside the mass grid (up to 10):
+Sqrts (TeV)   Weight (fb)        Element description
+  8.0  1.271E-01    #                         [[[b],[b]],[[b],[b]]]
+  8.0  3.863E-05    #                                 [[[l]],[[l]]]
+  8.0  1.137E-05    #                         [[[b],[b]],[[b],[t]]]
+  8.0  3.641E-07    #                                 [[[b]],[[b]]]
+  8.0  3.087E-07    #                                 [[[t]],[[t]]]
+================================================================================
+Missing topos: long cascade decays (up to 10 entries), sqrts = 8 TeV:
+Mother1 Mother2 Weight (fb) # allMothers
+1000021 2000001  6.380E-02 # [[1000021, 2000001], [1000021, 2000003]]
+1000002 1000021  1.428E-03 # [[1000002, 1000021]]
+1000021 1000024  8.504E-04 # [[1000021, 1000024]]
+1000006 1000006  5.913E-04 # [[1000006, 1000006]]
+1000021 1000023  3.073E-04 # [[1000021, 1000023]]
+1000021 2000005  1.955E-04 # [[1000021, 2000005]]
+2000005 2000005  1.783E-04 # [[2000005, 2000005]]
+1000001 1000021  1.113E-04 # [[1000001, 1000021]]
+1000002 1000005  7.417E-05 # [[1000002, 1000005]]
+1000021 2000002  3.722E-05 # [[1000021, 2000002]]
+================================================================================
+Missing topos: asymmetric branches (w/o long cascades, up to 10), sqrts = 8 TeV
+Mother1 Mother2 Weight (fb) # allMothers
+1000021 1000022  9.116E-03 # [[1000021, 1000022]]
+1000005 1000021  8.266E-03 # [[1000005, 1000021]]
+1000021 2000001  5.303E-03 # [[1000021, 2000001], [1000021, 2000003]]
+1000021 1000024  1.417E-03 # [[1000021, 1000024]]
+1000021 1000023  4.957E-04 # [[1000021, 1000023]]
+1000021 2000005  7.494E-05 # [[1000021, 2000005]]
+1000006 1000006  6.506E-05 # [[1000006, 1000006]]
+1000002 1000021  3.918E-05 # [[1000002, 1000021]]
+1000011 1000012  3.863E-05 # [[1000011, 1000012]]
+1000005 2000005  1.034E-05 # [[1000005, 2000005]]

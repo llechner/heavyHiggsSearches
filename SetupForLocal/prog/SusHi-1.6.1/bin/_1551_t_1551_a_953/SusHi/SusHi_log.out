@@ -1,0 +1,109 @@
+LHAPDF 6.1.6 loading /home/lukas/Schreibtisch/Bino/SModelS-Setup-Bino/prog/LHAPDF-6.1.6/installation/share/LHAPDF/MMHT2014lo68cl/MMHT2014lo68cl_0000.dat
+MMHT2014lo68cl PDF set, member #0, version 3; LHAPDF ID = 25000
+LHAPDF 6.1.6 loading /home/lukas/Schreibtisch/Bino/SModelS-Setup-Bino/prog/LHAPDF-6.1.6/installation/share/LHAPDF/MMHT2014nlo68cl/MMHT2014nlo68cl_0000.dat
+MMHT2014nlo68cl PDF set, member #0, version 3; LHAPDF ID = 25100
+LHAPDF 6.1.6 loading /home/lukas/Schreibtisch/Bino/SModelS-Setup-Bino/prog/LHAPDF-6.1.6/installation/share/LHAPDF/MMHT2014nnlo68cl/MMHT2014nnlo68cl_0000.dat
+MMHT2014nnlo68cl PDF set, member #0, version 3; LHAPDF ID = 25300
+LHAPDF 6.1.6 loading /home/lukas/Schreibtisch/Bino/SModelS-Setup-Bino/prog/LHAPDF-6.1.6/installation/share/LHAPDF/MMHT2014lo68cl/MMHT2014lo68cl_0000.dat
+MMHT2014lo68cl PDF set, member #0, version 3; LHAPDF ID = 25000
+LHAPDF 6.1.6 loading /home/lukas/Schreibtisch/Bino/SModelS-Setup-Bino/prog/LHAPDF-6.1.6/installation/share/LHAPDF/MMHT2014nlo68cl/MMHT2014nlo68cl_0000.dat
+MMHT2014nlo68cl PDF set, member #0, version 3; LHAPDF ID = 25100
+#--------------------------------------------------#
+# SusHi: (Supersymmetric) Higgs production through #
+#  __      __        gluon fusion and bottom-quark #
+# [_  | | [_  |_| |  annihilation                  #
+# __] |_| __] | | |                                #
+#                    Version 1.6.1      Jul 2016   #
+#        R. Harlander, S. Liebler, and H. Mantler  #
+#               (harlander@physik.rwth-aachen.de)  #
+#                        (stefan.liebler@desy.de)  #
+#                       (hendrik.mantler@kit.edu)  #
+#            BU Wuppertal, RWTH Aachen, DESY, KIT  #
+#--------------------------------------------------#
+# SusHi is based on a number of calculations       #
+# due to various groups. Please acknowledge these  #
+# efforts by citing the list of references which   #
+# are included in the output file of every run.    #
+#--------------------------------------------------#
+ SusHi (info): SUSHI(21) defaults to 0: All bbh@nnlo subprocesses included.
+ SusHi (info): SusHi was called with on-shell squark sector input:
+ SusHi (info): Please guarantee the consistency of the renormalization
+ SusHi (info): scheme using on-shell parameter input.
+ SusHi (info): VEGAS will be called only once.
+#--------------------------------------------------#
+ Higgs mass:    1206.64613   GeV
+#--------------------------------------------------#
+#--------------------------------------------------#
+ Calling ggh@nnlo and bbh@nnlo
+#--------------------------------------------------#
+#--------------------------------------------------#
+ Performing NLO ggh calculation
+#--------------------------------------------------#
+0vegas  ndim=  1  ncall=   9898.  itmx =    5  acc=0.100D-07  mds= -1   nd=  49
+   1      0.15298127D+00  0.2905D-06      0.15298127D+00  0.2905D-06  0.0000D+00
+   2      0.15298118D+00  0.1850D-06      0.15298121D+00  0.1560D-06  0.6612D-01
+   3      0.15298113D+00  0.1813D-06      0.15298117D+00  0.1183D-06  0.8062D-01
+   4      0.15298097D+00  0.1822D-06      0.15298111D+00  0.9920D-07  0.3501D+00
+   5      0.15298130D+00  0.1838D-06      0.15298115D+00  0.8729D-07  0.4535D+00
+0vegas  ndim=  1  ncall=   9898.  itmx =    5  acc=0.100D-07  mds= -1   nd=  49
+   1      0.16077560D+00  0.3078D-06      0.16077560D+00  0.3078D-06  0.0000D+00
+   2      0.16077553D+00  0.1982D-06      0.16077555D+00  0.1666D-06  0.4098D-01
+   3      0.16077549D+00  0.1944D-06      0.16077552D+00  0.1265D-06  0.4899D-01
+   4      0.16077537D+00  0.1990D-06      0.16077548D+00  0.1068D-06  0.1697D+00
+   5      0.16077543D+00  0.1993D-06      0.16077547D+00  0.9411D-07  0.1391D+00
+0vegas  ndim=  2  ncall=   9800.  itmx =    5  acc=0.100D-07  mds= -1   nd=  35
+   1      0.16431609D+01  0.4583D-02      0.16431609D+01  0.4583D-02  0.0000D+00
+   2      0.16419058D+01  0.6772D-03      0.16419326D+01  0.6701D-03  0.7346D-01
+   3      0.16413771D+01  0.4702D-03      0.16415606D+01  0.3850D-03  0.2670D+00
+   4      0.16415793D+01  0.4199D-03      0.16415691D+01  0.2838D-03  0.1784D+00
+   5      0.16419534D+01  0.4167D-03      0.16416909D+01  0.2346D-03  0.2790D+00
+0vegas  ndim=  3  ncall=   9826.  itmx =    5  acc=0.100D-07  mds=  1   nd=  50
+   1     -0.30679373D+00  0.1437D-01     -0.30679373D+00  0.1437D-01  0.0000D+00
+   2     -0.31161103D+00  0.8017D-03     -0.31159654D+00  0.7943D-03  0.1103D+00
+   3     -0.30895491D+00  0.7048D-03     -0.31011959D+00  0.5273D-03  0.3149D+01
+   4     -0.30975571D+00  0.9230D-03     -0.31002978D+00  0.4578D-03  0.2136D+01
+   5     -0.31104413D+00  0.9695D-03     -0.31021646D+00  0.4140D-03  0.1824D+01
+0vegas  ndim=  3  ncall=   9826.  itmx =    5  acc=0.100D-07  mds=  1   nd=  50
+   1     -0.25889478D+01  0.1912D+00     -0.25889478D+01  0.1912D+00  0.0000D+00
+   2     -0.26636353D+01  0.9005D-02     -0.26634790D+01  0.8871D-02  0.1480D+00
+   3     -0.26417403D+01  0.5985D-02     -0.26484863D+01  0.4951D-02  0.2137D+01
+   4     -0.26434323D+01  0.7482D-02     -0.26469377D+01  0.4128D-02  0.1527D+01
+   5     -0.26390226D+01  0.7721D-02     -0.26451736D+01  0.3640D-02  0.1350D+01
+0vegas  ndim=  2  ncall=   9800.  itmx =    5  acc=0.100D-07  mds= -1   nd=  35
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Thanks for using LHAPDF 6.1.6. Please make sure to cite the paper:
+  Eur.Phys.J. C75 (2015) 3, 132  (http://arxiv.org/abs/1412.7420)
+   1     -0.13728529D+01  0.3552D-02     -0.13728529D+01  0.3552D-02  0.0000D+00
+   2     -0.13724384D+01  0.7175D-03     -0.13724546D+01  0.7034D-03  0.1309D-01
+   3     -0.13731478D+01  0.5328D-03     -0.13728952D+01  0.4247D-03  0.3150D+00
+   4     -0.13722594D+01  0.4725D-03     -0.13726112D+01  0.3159D-03  0.5438D+00
+   5     -0.13731829D+01  0.4659D-03     -0.13727913D+01  0.2615D-03  0.6658D+00
+0vegas  ndim=  3  ncall=   9826.  itmx =    5  acc=0.100D-07  mds=  1   nd=  50
+   1      0.16504411D-03  0.2665D-05      0.16504411D-03  0.2665D-05  0.0000D+00
+   2      0.16869501D-03  0.3484D-06      0.16863625D-03  0.3419D-06  0.1806D+01
+   3      0.16808356D-03  0.3864D-06      0.16839162D-03  0.2558D-06  0.1474D+01
+   4      0.16725602D-03  0.4957D-06      0.16815279D-03  0.2273D-06  0.2364D+01
+   5      0.16818530D-03  0.4841D-06      0.16815872D-03  0.2058D-06  0.1770D+01
+#--------------------------------------------------#
+ Note: NNLO SUSY contribution not taken into account.
+ Use order ggh = 3 for approximate NNLO stop cont. for h.
+#--------------------------------------------------#
+#--------------------------------------------------#
+ The bbh results are given by:
+       LO:          0.00144   +-     0.00000   pb     
+      NLO:          0.00104   +-     0.00000   pb     
+     NNLO:          0.00129   +-     0.00000   pb     
+#--------------------------------------------------#
+ The ggh results are given by:
+       LO:          0.00001   +-     0.00000   pb     
+       gg:          0.00002   +-     0.00000   pb     
+       qg:         -0.00001   +-     0.00000   pb     
+       qq:          0.00000   +-     0.00000   pb     
+      NLO:          0.00002   +-     0.00000   pb     
+     xsec:          0.00002   +-     0.00000   pb     
+  muR unc.:  -      0.00000   +      0.00000   pb     
+ The scale uncertainty is obtained by a variation
+ of muR within [ 0.50000E+00, 0.20000E+01]* 0.12066E+04 GeV.
+#--------------------------------------------------#
+ Results written in output file: SusHi.out                                                   
+ [32mMake sure to cite the references listed in output file SusHi.out![0m

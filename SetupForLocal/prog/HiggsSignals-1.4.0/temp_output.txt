@@ -1,0 +1,24 @@
+gfortran -fbounds-check -ffixed-line-length-none -L../HiggsBounds-4.3.1 -I../HiggsBounds-4.3.1  -c usefulbits_HS.f90 -o usefulbits_HS.o -lHB
+gfortran -fbounds-check -ffixed-line-length-none -L../HiggsBounds-4.3.1 -I../HiggsBounds-4.3.1  -c store_pathname_HS.f90 -o store_pathname_HS.o -lHB
+ar -rv libHS.a usefulbits_HS.o store_pathname_HS.o datatables.o combinatorics.o numerics.o io.o expt_syst.o pc_chisq.o mc_chisq.o all_chisq.o HiggsSignals_subroutines.o
+r - usefulbits_HS.o
+r - store_pathname_HS.o
+r - datatables.o
+r - combinatorics.o
+r - numerics.o
+r - io.o
+r - expt_syst.o
+r - pc_chisq.o
+r - mc_chisq.o
+r - all_chisq.o
+r - HiggsSignals_subroutines.o
+ranlib libHS.a	
+gfortran -fbounds-check -ffixed-line-length-none -L../HiggsBounds-4.3.1 -I../HiggsBounds-4.3.1 example_programs/HSeffC.f90 -o example_programs/HSeffC -L./ -lHS -lHB
+gfortran -fbounds-check -ffixed-line-length-none -L../HiggsBounds-4.3.1 -I../HiggsBounds-4.3.1 example_programs/HShadr.f90 -o example_programs/HShadr -L./ -lHS -lHB
+gfortran -fbounds-check -ffixed-line-length-none -L../HiggsBounds-4.3.1 -I../HiggsBounds-4.3.1 example_programs/HSscaleUncertainties.f90 -o example_programs/HSscaleUncertainties -L./ -lHS -lHB
+gfortran -fbounds-check -ffixed-line-length-none -L../HiggsBounds-4.3.1 -I../HiggsBounds-4.3.1 example_programs/HSwithToys.f90 -o example_programs/HSwithToys -L./ -lHS -lHB
+gfortran -fbounds-check -ffixed-line-length-none -L../HiggsBounds-4.3.1 -I../HiggsBounds-4.3.1 example_programs/HS_efficiencies.f90 -o example_programs/HS_efficiencies -L./ -lHS -lHB	
+gfortran -fbounds-check -ffixed-line-length-none -L../HiggsBounds-4.3.1 -I../HiggsBounds-4.3.1 example_programs/HSwithSLHA.f90 -o example_programs/HSwithSLHA -L./ -lHS -lHB
+gfortran -fbounds-check -ffixed-line-length-none -L../HiggsBounds-4.3.1 -I../HiggsBounds-4.3.1 example_programs/HBandHSwithSLHA.f90 -o example_programs/HBandHSwithSLHA -L./ -lHS -lHB
+gfortran -fbounds-check -ffixed-line-length-none -L../HiggsBounds-4.3.1 -I../HiggsBounds-4.3.1 example_programs/HS_mass.f90 -o example_programs/HS_mass -L./ -lHS -lHB
+gfortran -fbounds-check -ffixed-line-length-none -L../HiggsBounds-4.3.1 -I../HiggsBounds-4.3.1 example_programs/HS_2Higgses.f90 -o example_programs/HS_2Higgses -L./ -lHS -lHB

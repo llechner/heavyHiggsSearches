@@ -1,0 +1,30 @@
+Input status: 1
+Decomposition output status: 0 #no matching experimental results
+# Input File: /home/lukas/Schreibtisch/Bino/SModelS-Setup-Bino/code/calculation/output/SModelS/intermediateHiggs/SModelS_input_interHiggs.slha
+# maxcond = 0.2
+# minmassgap = 5.
+# ncpus = 1
+# sigmacut = 0.0000001
+# Database version: 1.1.1pre1
+================================================================================
+
+Total missing topology cross section (fb):  1.385E-06
+Total cross section where we are outside the mass grid (fb):  0.000E+00
+Total cross section in long cascade decays (fb):  0.000E+00
+Total cross section in decays with asymmetric branches (fb):  1.385E-06
+
+Full information on unconstrained cross sections
+================================================================================
+Missing topologies with the highest cross sections (up to 10):
+Sqrts (TeV)   Weight (fb)        Element description
+  8.0  1.101E-06    #                                [[],[[t],[t]]]
+  8.0  2.833E-07    #                                    [[],[[Z]]]
+================================================================================
+No contributions outside the mass grid
+================================================================================
+Missing topos: long cascade decays (up to 10 entries), sqrts = 8 TeV:
+Mother1 Mother2 Weight (fb) # allMothers
+================================================================================
+Missing topos: asymmetric branches (w/o long cascades, up to 10), sqrts = 8 TeV
+Mother1 Mother2 Weight (fb) # allMothers
+1000022 1000025  1.385E-06 # [[1000022, 1000025]]

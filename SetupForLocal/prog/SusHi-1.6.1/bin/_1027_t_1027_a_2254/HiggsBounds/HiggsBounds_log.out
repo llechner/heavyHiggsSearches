@@ -1,0 +1,49 @@
+
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~                                                        ~
+ ~                   HiggsBounds 4.3.1                    ~
+ ~                                                        ~
+ ~     Philip Bechtle, Oliver Brein, Sven Heinemeyer,     ~
+ ~       Oscar Stål, Tim Stefaniak, Georg Weiglein,       ~
+ ~                   Karina E. Williams                   ~
+ ~                                                        ~
+ ~            arXiv:0811.4169, arXiv:1102.1898,           ~
+ ~            arXiv:1301.2345, arXiv:1311.0055            ~
+ ~            arXiv:1507.06706,                           ~
+ ~            http://higgsbounds.hepforge.org             ~
+ ~                                                        ~
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ HiggsBounds collects together results from 
+
+     * the LEP collaborations and LEP Higgs Working Group
+     * the CDF and D0 Collaborations
+     * the ATLAS and CMS Collaborations
+     * the program HDECAY (arXiv:hep-ph/9704448)
+     * TeV4LHC Higgs Working Group report
+       (see arXiv:hep-ph/0612172 and ref. therein)
+     * LHC Higgs Cross Section Working Group
+       (arXiv:1101.0593, arXiv:1201.3084,
+        arXiv:1307.1347 and ref. therein)
+
+ doing some preliminary tasks...
+ ------
+ From command line:
+ prefix:HiggsBounds.in
+ ------
+ reading in Standard Model tables...
+ reading in S95tables...
+ reading in likelihoods...
+ sorting out processes to be checked...
+ preparing output arrays...
+ getting theoretical input...
+ Problem reading the block DMASS
+ This block is optional input to HiggsBounds.
+ Mass uncertainties will be set to zero.
+ compare each data point to the experimental bounds...
+ beginning output...
+ Problem reading the block DMASS
+ This block is optional input to HiggsBounds.
+ Mass uncertainties will be set to zero.
+ finishing off...
+ finished

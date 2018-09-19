@@ -1,0 +1,11 @@
+CC = gcc
+CFLAGS = -O3 -pipe -fomit-frame-pointer
+MAKE = make
+AR = ar
+SOFTSUSY =
+ISAJET =
+SPHENO = ../SPheno-4.0.2/bin/SPheno
+SUSPECT = ../SuSpect2/suspect
+THDMC =
+HBwithFH =
+NMSSMTools =

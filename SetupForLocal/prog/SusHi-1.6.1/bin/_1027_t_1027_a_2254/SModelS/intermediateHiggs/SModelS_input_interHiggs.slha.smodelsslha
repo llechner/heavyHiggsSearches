@@ -1,0 +1,19 @@
+BLOCK SModelS_Settings
+ 0 v1.1.1                    #SModelS version
+ 1 1.1.1pre1                 #database version
+ 2 0.2                       #maximum condition violation
+ 3 1                         #compression (0 off, 1 on)
+ 4 5.                        #minimum mass gap for mass compression [GeV]
+ 5 0.0000001                 #sigmacut [fb]
+
+BLOCK SModelS_Missing_Topos #sqrts[TeV] weight[fb] description
+ 0 8  1.101E-06 [[],[[t],[t]]]
+ 1 8  2.833E-07 [[],[[Z]]]
+
+BLOCK SModelS_Outside_Grid #sqrts[TeV] weight[fb] description
+
+BLOCK SModelS_Long_Cascade #Mother1 Mother2 Weight[fb] allMothers
+
+BLOCK SModelS_Asymmetric_Branches #Mother1 Mother2 Weight[fb] allMothers
+ 0 1000022 1000025  1.385E-06 [[1000022,1000025]]
+BLOCK MASS

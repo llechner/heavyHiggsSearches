@@ -1,0 +1,30 @@
+#--------------------------------------------------#
+# SusHi: (Supersymmetric) Higgs production through #
+#  __      __        gluon fusion and bottom-quark #
+# [_  | | [_  |_| |  annihilation                  #
+# __] |_| __] | | |                                #
+#                    Version 1.6.1      Jul 2016   #
+#        R. Harlander, S. Liebler, and H. Mantler  #
+#               (harlander@physik.rwth-aachen.de)  #
+#                        (stefan.liebler@desy.de)  #
+#                       (hendrik.mantler@kit.edu)  #
+#            BU Wuppertal, RWTH Aachen, DESY, KIT  #
+#--------------------------------------------------#
+# SusHi is based on a number of calculations       #
+# due to various groups. Please acknowledge these  #
+# efforts by citing the list of references which   #
+# are included in the output file of every run.    #
+#--------------------------------------------------#
+ SusHi (info): SUSHI(21) defaults to 0: All bbh@nnlo subprocesses included.
+ No Block RENORMBOT       found.
+ No Block RENORMSBOT      found.
+ No Block FACTORS         found.
+ SusHi (info): SusHi was called with on-shell squark sector input:
+ SusHi (info): Please guarantee the consistency of the renormalization
+ SusHi (info): scheme using on-shell parameter input.
+ SusHi (info): charm yukawa-coupling undefined. 
+ SusHi (info): top yukawa-coupling undefined. 
+ SusHi (info): bottom yukawa-coupling undefined. 
+ SusHi (info): stop yukawa-coupling undefined. 
+ SusHi (info): sbottom yukawa-coupling undefined. 
+ [31mSusHi (fatal):[0m charm mass undefined. [31mStopped.[0m

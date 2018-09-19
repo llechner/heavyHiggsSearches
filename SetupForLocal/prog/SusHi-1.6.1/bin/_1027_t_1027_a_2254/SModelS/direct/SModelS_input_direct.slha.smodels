@@ -1,0 +1,63 @@
+Input status: 1
+Decomposition output status: 1 #decomposition was successful
+# Input File: /home/lukas/Schreibtisch/Bino/SModelS-Setup-Bino/code/calculation/output/SModelS/direct/SModelS_input_direct.slha
+# maxcond = 0.2
+# minmassgap = 5.
+# ncpus = 1
+# sigmacut = 0.0000001
+# Database version: 1.1.1pre1
+================================================================================
+#Analysis  Sqrts  Cond_Violation  Theory_Value(fb)  Exp_limit(fb)  r  r_expected
+
+ATLAS-CONF-2013-047  8.00E+00    0.0  5.164E-02  2.520E+00  2.049E-02  2.459E-02
+ Signal Region:  A Medium
+ Txnames:  T2
+ Chi2, Likelihood =  3.350E-01  1.562E-02
+--------------------------------------------------------------------------------
+ATLAS-CONF-2013-054  8.00E+00    0.0  1.729E-04  5.000E-01  3.459E-04  3.735E-04
+ Signal Region:  7j80 flavor 0 b-jets
+ Txnames:  T2
+ Chi2, Likelihood =  9.509E-02  9.162E-02
+
+ 
+================================================================================
+The highest r value is = 0.0204934753707
+
+Total missing topology cross section (fb):  6.434E-03
+Total cross section where we are outside the mass grid (fb):  1.384E-01
+Total cross section in long cascade decays (fb):  0.000E+00
+Total cross section in decays with asymmetric branches (fb):  6.367E-03
+
+Full information on unconstrained cross sections
+================================================================================
+Missing topologies with the highest cross sections (up to 10):
+Sqrts (TeV)   Weight (fb)        Element description
+  8.0  5.351E-03    #                                  [[],[[jet]]]
+  8.0  7.228E-04    #                       [[[jet]],[[jet],[jet]]]
+  8.0  2.032E-04    #                               [[[b]],[[jet]]]
+  8.0  6.773E-05    #                                       [[],[]]
+  8.0  3.554E-05    #                           [[[b],[t]],[[jet]]]
+  8.0  2.909E-05    #                           [[[jet]],[[t],[b]]]
+  8.0  1.177E-05    #                           [[[jet]],[[t],[t]]]
+  8.0  1.014E-05    #                           [[[b],[b]],[[jet]]]
+  8.0  2.546E-06    #                               [[[W]],[[jet]]]
+  8.0  8.180E-07    #                           [[[higgs]],[[jet]]]
+================================================================================
+Contributions outside the mass grid (up to 10):
+Sqrts (TeV)   Weight (fb)        Element description
+  8.0  1.384E-01    #                             [[[jet]],[[jet]]]
+================================================================================
+Missing topos: long cascade decays (up to 10 entries), sqrts = 8 TeV:
+Mother1 Mother2 Weight (fb) # allMothers
+================================================================================
+Missing topos: asymmetric branches (w/o long cascades, up to 10), sqrts = 8 TeV
+Mother1 Mother2 Weight (fb) # allMothers
+1000022 2000001  4.335E-03 # [[1000022, 2000001], [1000022, 2000003]]
+1000002 1000022  6.096E-04 # [[1000002, 1000022]]
+1000001 1000024  4.064E-04 # [[1000001, 1000024]]
+1000002 1000024  2.032E-04 # [[1000002, 1000024]]
+1000002 1000005  2.032E-04 # [[1000002, 1000005]]
+1000001 1000022  2.032E-04 # [[1000001, 1000022]]
+1000022 2000002  2.032E-04 # [[1000022, 2000002]]
+1000002 1000023  1.354E-04 # [[1000002, 1000023]]
+1000001 1000023  6.771E-05 # [[1000001, 1000023]]

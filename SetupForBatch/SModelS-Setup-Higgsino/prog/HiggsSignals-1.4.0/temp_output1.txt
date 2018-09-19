@@ -1,0 +1,379 @@
+ ------
+ From command line:
+ prefix:example_data/random/HB_randomtest50points_
+ ------
+
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~                                                        ~
+ ~      	      HiggsSignals 1.4.0    	          ~
+ ~                                                        ~
+ ~      Philip Bechtle, Sven Heinemeyer, Oscar Stål,      ~
+ ~              Tim Stefaniak, Georg Weiglein             ~
+ ~                                                        ~
+ ~       arXiv:1305.1933 (Manual)                         ~
+ ~       arXiv:1403.1582 (application + more details)     ~
+ ~                                                        ~
+ ~ It is based on the HiggsBounds-4 Fortran library.      ~
+ ~ Please consult and cite also the following references  ~
+ ~ for the HiggsBounds program                            ~
+ ~                                                        ~
+ ~    arXiv:0811.4169, arXiv:1102.1898, arXiv:1311.0055   ~
+ ~                                                        ~
+ ~ For updates, additional material, release notes, see:  ~
+ ~            http://higgsbounds.hepforge.org             ~
+ ~                                                        ~
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  HiggsSignals collects together results from 
+
+     * the ATLAS and CMS Collaborations
+     * the CDF and D0 Collaborations
+     * the program HDECAY (arXiv:hep-ph/9704448)
+     * LHC Higgs Cross Section Working Group
+       (arXiv:1101.0593, arXiv:1201.3084, 
+        arXiv:1307.1347 and ref. therein)
+
+ Covariance matrix for relative branching ratio uncertainties read in successfully.
+ Covariance matrix for relative cross section uncertainties read in successfully.
+ Reading in the following datafiles from analysis-set latestresults:
+   1  ATL_H-gaga_central-highpT_8TeV_20.3fb-1_125.4GeV_7084102.txt                                        
+   2  ATL_H-gaga_central-lowpT_8TeV_20.3fb-1_125.4GeV_7084101.txt                                         
+   3  ATL_H-gaga_forward-highpT_8TeV_20.3fb-1_125.4GeV_7084104.txt                                        
+   4  ATL_H-gaga_forward-lowpT_8TeV_20.3fb-1_125.4GeV_7084103.txt                                         
+   5  ATL_H-gaga_ttH-hadronic_8TeV_20.3fb-1_125.4GeV_7084110.txt                                          
+   6  ATL_H-gaga_ttH-leptonic_8TeV_20.3fb-1_125.4GeV_7084111.txt                                          
+   7  ATL_H-gaga_VBF-loose_8TeV_20.3fb-1_125.4GeV_7084105.txt                                             
+   8  ATL_H-gaga_VBF-tight_8TeV_20.3fb-1_125.4GeV_7084106.txt                                             
+   9  ATL_H-gaga_VH-dijet_8TeV_20.3fb-1_125.4GeV_7084107.txt                                              
+  10  ATL_H-gaga_VH-ETmiss_8TeV_20.3fb-1_125.4GeV_7084108.txt                                             
+  11  ATL_H-gaga_VH-onelepton_8TeV_20.3fb-1_125.4GeV_7084109.txt                                          
+  12  ATL_H-tautau_hadhad_boosted_7-8TeV_24.8fb-1_125.36GeV_2014061105.txt                                
+  13  ATL_H-tautau_hadhad_VBF_7-8TeV_24.8fb-1_125.36GeV_2014061106.txt                                    
+  14  ATL_H-tautau_lephad_boosted_7-8TeV_24.8fb-1_125.36GeV_2014061103.txt                                
+  15  ATL_H-tautau_lephad_VBF_7-8TeV_24.8fb-1_125.36GeV_2014061104.txt                                    
+  16  ATL_H-tautau_leplep_boosted_7-8TeV_24.8fb-1_125.36GeV_2014061101.txt                                
+  17  ATL_H-tautau_leplep_VBF_7-8TeV_24.8fb-1_125.36GeV_2014061102.txt                                    
+  18  ATL_H-WW-lnulnu_ggH_7-8TeV_4.5fb-1_20.3fb-1_125.36GeV_2014060101.txt                                
+  19  ATL_H-WW-lnulnu_VBF_7-8TeV_4.5fb-1_20.3fb-1_125.36GeV_2014060102.txt                                
+  20  ATL_H-ZZ-4l_ggF_7-8TeV_4.5fb-1_20.3fb-1_124.51GeV_5191102.txt                                       
+  21  ATL_H-ZZ-4l_VBFVH_7-8TeV_4.6fb-1_20.7fb-1_125.5GeV_2013013102.txt                                   
+  22  ATL_ttH-1l2tau_8TeV_20.3fb-1_125GeV_201500615.txt                                                   
+  23  ATL_ttH-2l0tau_8TeV_20.3fb-1_125GeV_201500611.txt                                                   
+  24  ATL_ttH-2l1tau_8TeV_20.3fb-1_125GeV_201500613.txt                                                   
+  25  ATL_ttH-3l_8TeV_20.3fb-1_125GeV_201500612.txt                                                       
+  26  ATL_ttH-4l_8TeV_20.3fb-1_125GeV_201500614.txt                                                       
+  27  ATL_ttH-bb_8TeV_20.3fb-1_125GeV_0506611.txt                                                         
+  28  ATL_VH-Vbb_0lep_7-8TeV_4.7fb-1_20.3fb-1_125.0GeV_6212101.txt                                        
+  29  ATL_VH-Vbb_1lep_7-8TeV_4.7fb-1_20.3fb-1_125.0GeV_6212102.txt                                        
+  30  ATL_VH-Vbb_2lep_7-8TeV_4.7fb-1_20.3fb-1_125.0GeV_6212103.txt                                        
+  31  ATL_VH-WW_2l_7-8TeV_4.7fb-1_20.3fb-1_125.36GeV_201500513.txt                                        
+  32  ATL_VH-WW_3l_7-8TeV_4.7fb-1_20.3fb-1_125.36GeV_201500512.txt                                        
+  33  ATL_VH-WW_4l_7-8TeV_4.7fb-1_20.3fb-1_125.36GeV_201500511.txt                                        
+  34  CDF_H-gaga_1.96TeV_9.45fb-1_125GeV_1301666812.txt                                                   
+  35  CDF_H-tautau_1.96TeV_9.45fb-1_125GeV_1301666814.txt                                                 
+  36  CDF_H-WW_1.96TeV_9.45fb-1_125GeV_1301666813.txt                                                     
+  37  CDF_ttH-bb_1.96TeV_9.45fb-1_125GeV_1301666811.txt                                                   
+  38  CDF_VH-bb_1.96TeV_9.45fb-1_125GeV_1301666815.txt                                                    
+  39  CMS_H-gaga_ttH-dijet_8TeV_19.6fb-1_124.7GeV_0558124.txt                                             
+  40  CMS_H-gaga_ttH-lepton_8TeV_19.7fb-1_124.7GeV_0558123.txt                                            
+  41  CMS_H-gaga_ttH-tags_7TeV_5.0fb-1_124.7GeV_0558110.txt                                               
+  42  CMS_H-gaga_untag0_7TeV_5.0fb-1_124.7GeV_0558101.txt                                                 
+  43  CMS_H-gaga_untag0_8TeV_19.7fb-1_124.7GeV_0558111.txt                                                
+  44  CMS_H-gaga_untag1_7TeV_5.0fb-1_124.7GeV_0558102.txt                                                 
+  45  CMS_H-gaga_untag1_8TeV_19.7fb-1_124.7GeV_0558112.txt                                                
+  46  CMS_H-gaga_untag2_7TeV_5.0fb-1_124.7GeV_0558103.txt                                                 
+  47  CMS_H-gaga_untag2_8TeV_19.7fb-1_124.7_0558113.txt                                                   
+  48  CMS_H-gaga_untag3_7TeV_5.0fb-1_124.7GeV_0558104.txt                                                 
+  49  CMS_H-gaga_untag3_8TeV_19.7fb-1_124.7GeV_0558114.txt                                                
+  50  CMS_H-gaga_untag4_8TeV_19.7fb-1_124.7GeV_0558115.txt                                                
+  51  CMS_H-gaga_VBF-dijet0_7TeV_5.0fb-1_124.7GeV_0558105.txt                                             
+  52  CMS_H-gaga_VBF-dijet0_8TeV_19.7fb-1_124.7GeV_0558116.txt                                            
+  53  CMS_H-gaga_VBF-dijet1_7TeV_5.0fb-1_124.7GeV_0558106.txt                                             
+  54  CMS_H-gaga_VBF-dijet1_8TeV_19.7fb-1_124.7GeV_0558117.txt                                            
+  55  CMS_H-gaga_VBF-dijet2_8TeV_19.7fb-1_124.7GeV_0558118.txt                                            
+  56  CMS_H-gaga_VH-dijet_7TeV_5.0fb-1_124.7GeV_0558109.txt                                               
+  57  CMS_H-gaga_VH-dijet_8TeV_19.7fb-1_124.7GeV_0558122.txt                                              
+  58  CMS_H-gaga_VH-ETmiss_7TeV_5.0fb-1_124.7GeV_0558108.txt                                              
+  59  CMS_H-gaga_VH-ETmiss_8TeV_19.7fb-1_124.7GeV_0558121.txt                                             
+  60  CMS_H-gaga_VH-loose_7TeV_5.0fb-1_124.7GeV_0558107.txt                                               
+  61  CMS_H-gaga_VH-loose_8TeV_19.7fb-1_124.7GeV_0558120.txt                                              
+  62  CMS_H-gaga_VH-tight_8TeV_19.7fb-1_124.7GeV_0558119.txt                                              
+  63  CMS_H-mumu_7-8TeV_5.0fb-1_19.7fb-1_125.7GeV_13007101.txt                                            
+  64  CMS_H-tautau_0jet_7-8TeV_4.9fb-1_19.7fb-1_125.0GeV_13004101.txt                                     
+  65  CMS_H-tautau_1jet_7-8TeV_4.9fb-1_19.7fb-1_125.0GeV_13004102.txt                                     
+  66  CMS_H-WW_0-1jet_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112911.txt                                         
+  67  CMS_H-WW_VBF_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112912.txt                                            
+  68  CMS_H-ZZ_0-1jet_7-8TeV_5.1fb-1_19.6fb-1_125.7GeV_14009101.txt                                       
+  69  CMS_H-ZZ_2jet_7-8TeV_5.1fb-1_19.6fb-1_125.7GeV_14009102.txt                                         
+  70  CMS_ttH-2leptons_8TeV_19.6fb-1_125.6GeV_1682104.txt                                                 
+  71  CMS_ttH-3leptons_8TeV_19.6fb-1_125.6GeV_1682105.txt                                                 
+  72  CMS_ttH-4leptons_8TeV_19.6fb-1_125.6GeV_1682106.txt                                                 
+  73  CMS_ttH-bb_7-8TeV_5.0fb-1_19.5fb-1_125.6GeV_1682102.txt                                             
+  74  CMS_ttH-gaga_8TeV_19.6fb-1_125.6GeV_1682101.txt                                                     
+  75  CMS_ttH-tautau_7-8TeV_5.0fb-1_19.5fb-1_125.6GeV_1682103.txt                                         
+  76  CMS_VBF-tautau_7-8TeV_4.9fb-1_19.7fb-1_125.0GeV_13004104.txt                                        
+  77  CMS_VH-bb_7-8TeV_5.0fb-1_19.0fb-1_125.0GeV_13012101.txt                                             
+  78  CMS_VH-bb_7-8TeV_5.0fb-1_19.0fb-1_13012201.txt                                                      
+  79  CMS_VH-tautau_7-8TeV_5.0fb-1_19.5fb-1_125.7GeV_13004103.txt                                         
+  80  CMS_VH-WW_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112913.txt                                               
+  81  CMS_VH-WW_hadronicV_7-8TeV_4.9fb-1_19.5fb-1_125.0GeV_13017101.txt                                   
+  82  CMS_WH-WW_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112914.txt                                               
+  83  D0_H-bb_1.96TeV_9.7fb-1_125GeV_1303082314.txt                                                       
+  84  D0_H-gaga_1.96TeV_9.7fb-1_125GeV_1303082311.txt                                                     
+  85  D0_H-tautau_1.96TeV_9.7fb-1_125GeV_1303082313.txt                                                   
+  86  D0_H-WW_1.96TeV_9.7fb-1_125GeV_1303082312.txt                                                       
+ warning: sum of BR for neutral Higgs boson at line number=          21 is   1.3992382204027924     
+  The matrix is singular, no solution !
+ ------
+ From command line:
+ prefix:example_data/random/HB_randomtest50points_
+ ------
+
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~                                                        ~
+ ~      	      HiggsSignals 1.4.0    	          ~
+ ~                                                        ~
+ ~      Philip Bechtle, Sven Heinemeyer, Oscar Stål,      ~
+ ~              Tim Stefaniak, Georg Weiglein             ~
+ ~                                                        ~
+ ~       arXiv:1305.1933 (Manual)                         ~
+ ~       arXiv:1403.1582 (application + more details)     ~
+ ~                                                        ~
+ ~ It is based on the HiggsBounds-4 Fortran library.      ~
+ ~ Please consult and cite also the following references  ~
+ ~ for the HiggsBounds program                            ~
+ ~                                                        ~
+ ~    arXiv:0811.4169, arXiv:1102.1898, arXiv:1311.0055   ~
+ ~                                                        ~
+ ~ For updates, additional material, release notes, see:  ~
+ ~            http://higgsbounds.hepforge.org             ~
+ ~                                                        ~
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  HiggsSignals collects together results from 
+
+     * the ATLAS and CMS Collaborations
+     * the CDF and D0 Collaborations
+     * the program HDECAY (arXiv:hep-ph/9704448)
+     * LHC Higgs Cross Section Working Group
+       (arXiv:1101.0593, arXiv:1201.3084, 
+        arXiv:1307.1347 and ref. therein)
+
+ Covariance matrix for relative branching ratio uncertainties read in successfully.
+ Covariance matrix for relative cross section uncertainties read in successfully.
+ Reading in the following datafiles from analysis-set latestresults:
+   1  ATL_H-gaga_central-highpT_8TeV_20.3fb-1_125.4GeV_7084102.txt                                        
+   2  ATL_H-gaga_central-lowpT_8TeV_20.3fb-1_125.4GeV_7084101.txt                                         
+   3  ATL_H-gaga_forward-highpT_8TeV_20.3fb-1_125.4GeV_7084104.txt                                        
+   4  ATL_H-gaga_forward-lowpT_8TeV_20.3fb-1_125.4GeV_7084103.txt                                         
+   5  ATL_H-gaga_ttH-hadronic_8TeV_20.3fb-1_125.4GeV_7084110.txt                                          
+   6  ATL_H-gaga_ttH-leptonic_8TeV_20.3fb-1_125.4GeV_7084111.txt                                          
+   7  ATL_H-gaga_VBF-loose_8TeV_20.3fb-1_125.4GeV_7084105.txt                                             
+   8  ATL_H-gaga_VBF-tight_8TeV_20.3fb-1_125.4GeV_7084106.txt                                             
+   9  ATL_H-gaga_VH-dijet_8TeV_20.3fb-1_125.4GeV_7084107.txt                                              
+  10  ATL_H-gaga_VH-ETmiss_8TeV_20.3fb-1_125.4GeV_7084108.txt                                             
+  11  ATL_H-gaga_VH-onelepton_8TeV_20.3fb-1_125.4GeV_7084109.txt                                          
+  12  ATL_H-tautau_hadhad_boosted_7-8TeV_24.8fb-1_125.36GeV_2014061105.txt                                
+  13  ATL_H-tautau_hadhad_VBF_7-8TeV_24.8fb-1_125.36GeV_2014061106.txt                                    
+  14  ATL_H-tautau_lephad_boosted_7-8TeV_24.8fb-1_125.36GeV_2014061103.txt                                
+  15  ATL_H-tautau_lephad_VBF_7-8TeV_24.8fb-1_125.36GeV_2014061104.txt                                    
+  16  ATL_H-tautau_leplep_boosted_7-8TeV_24.8fb-1_125.36GeV_2014061101.txt                                
+  17  ATL_H-tautau_leplep_VBF_7-8TeV_24.8fb-1_125.36GeV_2014061102.txt                                    
+  18  ATL_H-WW-lnulnu_ggH_7-8TeV_4.5fb-1_20.3fb-1_125.36GeV_2014060101.txt                                
+  19  ATL_H-WW-lnulnu_VBF_7-8TeV_4.5fb-1_20.3fb-1_125.36GeV_2014060102.txt                                
+  20  ATL_H-ZZ-4l_ggF_7-8TeV_4.5fb-1_20.3fb-1_124.51GeV_5191102.txt                                       
+  21  ATL_H-ZZ-4l_VBFVH_7-8TeV_4.6fb-1_20.7fb-1_125.5GeV_2013013102.txt                                   
+  22  ATL_ttH-1l2tau_8TeV_20.3fb-1_125GeV_201500615.txt                                                   
+  23  ATL_ttH-2l0tau_8TeV_20.3fb-1_125GeV_201500611.txt                                                   
+  24  ATL_ttH-2l1tau_8TeV_20.3fb-1_125GeV_201500613.txt                                                   
+  25  ATL_ttH-3l_8TeV_20.3fb-1_125GeV_201500612.txt                                                       
+  26  ATL_ttH-4l_8TeV_20.3fb-1_125GeV_201500614.txt                                                       
+  27  ATL_ttH-bb_8TeV_20.3fb-1_125GeV_0506611.txt                                                         
+  28  ATL_VH-Vbb_0lep_7-8TeV_4.7fb-1_20.3fb-1_125.0GeV_6212101.txt                                        
+  29  ATL_VH-Vbb_1lep_7-8TeV_4.7fb-1_20.3fb-1_125.0GeV_6212102.txt                                        
+  30  ATL_VH-Vbb_2lep_7-8TeV_4.7fb-1_20.3fb-1_125.0GeV_6212103.txt                                        
+  31  ATL_VH-WW_2l_7-8TeV_4.7fb-1_20.3fb-1_125.36GeV_201500513.txt                                        
+  32  ATL_VH-WW_3l_7-8TeV_4.7fb-1_20.3fb-1_125.36GeV_201500512.txt                                        
+  33  ATL_VH-WW_4l_7-8TeV_4.7fb-1_20.3fb-1_125.36GeV_201500511.txt                                        
+  34  CDF_H-gaga_1.96TeV_9.45fb-1_125GeV_1301666812.txt                                                   
+  35  CDF_H-tautau_1.96TeV_9.45fb-1_125GeV_1301666814.txt                                                 
+  36  CDF_H-WW_1.96TeV_9.45fb-1_125GeV_1301666813.txt                                                     
+  37  CDF_ttH-bb_1.96TeV_9.45fb-1_125GeV_1301666811.txt                                                   
+  38  CDF_VH-bb_1.96TeV_9.45fb-1_125GeV_1301666815.txt                                                    
+  39  CMS_H-gaga_ttH-dijet_8TeV_19.6fb-1_124.7GeV_0558124.txt                                             
+  40  CMS_H-gaga_ttH-lepton_8TeV_19.7fb-1_124.7GeV_0558123.txt                                            
+  41  CMS_H-gaga_ttH-tags_7TeV_5.0fb-1_124.7GeV_0558110.txt                                               
+  42  CMS_H-gaga_untag0_7TeV_5.0fb-1_124.7GeV_0558101.txt                                                 
+  43  CMS_H-gaga_untag0_8TeV_19.7fb-1_124.7GeV_0558111.txt                                                
+  44  CMS_H-gaga_untag1_7TeV_5.0fb-1_124.7GeV_0558102.txt                                                 
+  45  CMS_H-gaga_untag1_8TeV_19.7fb-1_124.7GeV_0558112.txt                                                
+  46  CMS_H-gaga_untag2_7TeV_5.0fb-1_124.7GeV_0558103.txt                                                 
+  47  CMS_H-gaga_untag2_8TeV_19.7fb-1_124.7_0558113.txt                                                   
+  48  CMS_H-gaga_untag3_7TeV_5.0fb-1_124.7GeV_0558104.txt                                                 
+  49  CMS_H-gaga_untag3_8TeV_19.7fb-1_124.7GeV_0558114.txt                                                
+  50  CMS_H-gaga_untag4_8TeV_19.7fb-1_124.7GeV_0558115.txt                                                
+  51  CMS_H-gaga_VBF-dijet0_7TeV_5.0fb-1_124.7GeV_0558105.txt                                             
+  52  CMS_H-gaga_VBF-dijet0_8TeV_19.7fb-1_124.7GeV_0558116.txt                                            
+  53  CMS_H-gaga_VBF-dijet1_7TeV_5.0fb-1_124.7GeV_0558106.txt                                             
+  54  CMS_H-gaga_VBF-dijet1_8TeV_19.7fb-1_124.7GeV_0558117.txt                                            
+  55  CMS_H-gaga_VBF-dijet2_8TeV_19.7fb-1_124.7GeV_0558118.txt                                            
+  56  CMS_H-gaga_VH-dijet_7TeV_5.0fb-1_124.7GeV_0558109.txt                                               
+  57  CMS_H-gaga_VH-dijet_8TeV_19.7fb-1_124.7GeV_0558122.txt                                              
+  58  CMS_H-gaga_VH-ETmiss_7TeV_5.0fb-1_124.7GeV_0558108.txt                                              
+  59  CMS_H-gaga_VH-ETmiss_8TeV_19.7fb-1_124.7GeV_0558121.txt                                             
+  60  CMS_H-gaga_VH-loose_7TeV_5.0fb-1_124.7GeV_0558107.txt                                               
+  61  CMS_H-gaga_VH-loose_8TeV_19.7fb-1_124.7GeV_0558120.txt                                              
+  62  CMS_H-gaga_VH-tight_8TeV_19.7fb-1_124.7GeV_0558119.txt                                              
+  63  CMS_H-mumu_7-8TeV_5.0fb-1_19.7fb-1_125.7GeV_13007101.txt                                            
+  64  CMS_H-tautau_0jet_7-8TeV_4.9fb-1_19.7fb-1_125.0GeV_13004101.txt                                     
+  65  CMS_H-tautau_1jet_7-8TeV_4.9fb-1_19.7fb-1_125.0GeV_13004102.txt                                     
+  66  CMS_H-WW_0-1jet_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112911.txt                                         
+  67  CMS_H-WW_VBF_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112912.txt                                            
+  68  CMS_H-ZZ_0-1jet_7-8TeV_5.1fb-1_19.6fb-1_125.7GeV_14009101.txt                                       
+  69  CMS_H-ZZ_2jet_7-8TeV_5.1fb-1_19.6fb-1_125.7GeV_14009102.txt                                         
+  70  CMS_ttH-2leptons_8TeV_19.6fb-1_125.6GeV_1682104.txt                                                 
+  71  CMS_ttH-3leptons_8TeV_19.6fb-1_125.6GeV_1682105.txt                                                 
+  72  CMS_ttH-4leptons_8TeV_19.6fb-1_125.6GeV_1682106.txt                                                 
+  73  CMS_ttH-bb_7-8TeV_5.0fb-1_19.5fb-1_125.6GeV_1682102.txt                                             
+  74  CMS_ttH-gaga_8TeV_19.6fb-1_125.6GeV_1682101.txt                                                     
+  75  CMS_ttH-tautau_7-8TeV_5.0fb-1_19.5fb-1_125.6GeV_1682103.txt                                         
+  76  CMS_VBF-tautau_7-8TeV_4.9fb-1_19.7fb-1_125.0GeV_13004104.txt                                        
+  77  CMS_VH-bb_7-8TeV_5.0fb-1_19.0fb-1_125.0GeV_13012101.txt                                             
+  78  CMS_VH-bb_7-8TeV_5.0fb-1_19.0fb-1_13012201.txt                                                      
+  79  CMS_VH-tautau_7-8TeV_5.0fb-1_19.5fb-1_125.7GeV_13004103.txt                                         
+  80  CMS_VH-WW_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112913.txt                                               
+  81  CMS_VH-WW_hadronicV_7-8TeV_4.9fb-1_19.5fb-1_125.0GeV_13017101.txt                                   
+  82  CMS_WH-WW_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112914.txt                                               
+  83  D0_H-bb_1.96TeV_9.7fb-1_125GeV_1303082314.txt                                                       
+  84  D0_H-gaga_1.96TeV_9.7fb-1_125GeV_1303082311.txt                                                     
+  85  D0_H-tautau_1.96TeV_9.7fb-1_125GeV_1303082313.txt                                                   
+  86  D0_H-WW_1.96TeV_9.7fb-1_125GeV_1303082312.txt                                                       
+ ------
+ From command line:
+ prefix:example_data/random/HB_randomtest50points_
+ ------
+
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~                                                        ~
+ ~      	      HiggsSignals 1.4.0    	          ~
+ ~                                                        ~
+ ~      Philip Bechtle, Sven Heinemeyer, Oscar Stål,      ~
+ ~              Tim Stefaniak, Georg Weiglein             ~
+ ~                                                        ~
+ ~       arXiv:1305.1933 (Manual)                         ~
+ ~       arXiv:1403.1582 (application + more details)     ~
+ ~                                                        ~
+ ~ It is based on the HiggsBounds-4 Fortran library.      ~
+ ~ Please consult and cite also the following references  ~
+ ~ for the HiggsBounds program                            ~
+ ~                                                        ~
+ ~    arXiv:0811.4169, arXiv:1102.1898, arXiv:1311.0055   ~
+ ~                                                        ~
+ ~ For updates, additional material, release notes, see:  ~
+ ~            http://higgsbounds.hepforge.org             ~
+ ~                                                        ~
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  HiggsSignals collects together results from 
+
+     * the ATLAS and CMS Collaborations
+     * the CDF and D0 Collaborations
+     * the program HDECAY (arXiv:hep-ph/9704448)
+     * LHC Higgs Cross Section Working Group
+       (arXiv:1101.0593, arXiv:1201.3084, 
+        arXiv:1307.1347 and ref. therein)
+
+ Covariance matrix for relative branching ratio uncertainties read in successfully.
+ Covariance matrix for relative cross section uncertainties read in successfully.
+ Reading in the following datafiles from analysis-set latestresults:
+   1  ATL_H-gaga_central-highpT_8TeV_20.3fb-1_125.4GeV_7084102.txt                                        
+   2  ATL_H-gaga_central-lowpT_8TeV_20.3fb-1_125.4GeV_7084101.txt                                         
+   3  ATL_H-gaga_forward-highpT_8TeV_20.3fb-1_125.4GeV_7084104.txt                                        
+   4  ATL_H-gaga_forward-lowpT_8TeV_20.3fb-1_125.4GeV_7084103.txt                                         
+   5  ATL_H-gaga_ttH-hadronic_8TeV_20.3fb-1_125.4GeV_7084110.txt                                          
+   6  ATL_H-gaga_ttH-leptonic_8TeV_20.3fb-1_125.4GeV_7084111.txt                                          
+   7  ATL_H-gaga_VBF-loose_8TeV_20.3fb-1_125.4GeV_7084105.txt                                             
+   8  ATL_H-gaga_VBF-tight_8TeV_20.3fb-1_125.4GeV_7084106.txt                                             
+   9  ATL_H-gaga_VH-dijet_8TeV_20.3fb-1_125.4GeV_7084107.txt                                              
+  10  ATL_H-gaga_VH-ETmiss_8TeV_20.3fb-1_125.4GeV_7084108.txt                                             
+  11  ATL_H-gaga_VH-onelepton_8TeV_20.3fb-1_125.4GeV_7084109.txt                                          
+  12  ATL_H-tautau_hadhad_boosted_7-8TeV_24.8fb-1_125.36GeV_2014061105.txt                                
+  13  ATL_H-tautau_hadhad_VBF_7-8TeV_24.8fb-1_125.36GeV_2014061106.txt                                    
+  14  ATL_H-tautau_lephad_boosted_7-8TeV_24.8fb-1_125.36GeV_2014061103.txt                                
+  15  ATL_H-tautau_lephad_VBF_7-8TeV_24.8fb-1_125.36GeV_2014061104.txt                                    
+  16  ATL_H-tautau_leplep_boosted_7-8TeV_24.8fb-1_125.36GeV_2014061101.txt                                
+  17  ATL_H-tautau_leplep_VBF_7-8TeV_24.8fb-1_125.36GeV_2014061102.txt                                    
+  18  ATL_H-WW-lnulnu_ggH_7-8TeV_4.5fb-1_20.3fb-1_125.36GeV_2014060101.txt                                
+  19  ATL_H-WW-lnulnu_VBF_7-8TeV_4.5fb-1_20.3fb-1_125.36GeV_2014060102.txt                                
+  20  ATL_H-ZZ-4l_ggF_7-8TeV_4.5fb-1_20.3fb-1_124.51GeV_5191102.txt                                       
+  21  ATL_H-ZZ-4l_VBFVH_7-8TeV_4.6fb-1_20.7fb-1_125.5GeV_2013013102.txt                                   
+  22  ATL_ttH-1l2tau_8TeV_20.3fb-1_125GeV_201500615.txt                                                   
+  23  ATL_ttH-2l0tau_8TeV_20.3fb-1_125GeV_201500611.txt                                                   
+  24  ATL_ttH-2l1tau_8TeV_20.3fb-1_125GeV_201500613.txt                                                   
+  25  ATL_ttH-3l_8TeV_20.3fb-1_125GeV_201500612.txt                                                       
+  26  ATL_ttH-4l_8TeV_20.3fb-1_125GeV_201500614.txt                                                       
+  27  ATL_ttH-bb_8TeV_20.3fb-1_125GeV_0506611.txt                                                         
+  28  ATL_VH-Vbb_0lep_7-8TeV_4.7fb-1_20.3fb-1_125.0GeV_6212101.txt                                        
+  29  ATL_VH-Vbb_1lep_7-8TeV_4.7fb-1_20.3fb-1_125.0GeV_6212102.txt                                        
+  30  ATL_VH-Vbb_2lep_7-8TeV_4.7fb-1_20.3fb-1_125.0GeV_6212103.txt                                        
+  31  ATL_VH-WW_2l_7-8TeV_4.7fb-1_20.3fb-1_125.36GeV_201500513.txt                                        
+  32  ATL_VH-WW_3l_7-8TeV_4.7fb-1_20.3fb-1_125.36GeV_201500512.txt                                        
+  33  ATL_VH-WW_4l_7-8TeV_4.7fb-1_20.3fb-1_125.36GeV_201500511.txt                                        
+  34  CDF_H-gaga_1.96TeV_9.45fb-1_125GeV_1301666812.txt                                                   
+  35  CDF_H-tautau_1.96TeV_9.45fb-1_125GeV_1301666814.txt                                                 
+  36  CDF_H-WW_1.96TeV_9.45fb-1_125GeV_1301666813.txt                                                     
+  37  CDF_ttH-bb_1.96TeV_9.45fb-1_125GeV_1301666811.txt                                                   
+  38  CDF_VH-bb_1.96TeV_9.45fb-1_125GeV_1301666815.txt                                                    
+  39  CMS_H-gaga_ttH-dijet_8TeV_19.6fb-1_124.7GeV_0558124.txt                                             
+  40  CMS_H-gaga_ttH-lepton_8TeV_19.7fb-1_124.7GeV_0558123.txt                                            
+  41  CMS_H-gaga_ttH-tags_7TeV_5.0fb-1_124.7GeV_0558110.txt                                               
+  42  CMS_H-gaga_untag0_7TeV_5.0fb-1_124.7GeV_0558101.txt                                                 
+  43  CMS_H-gaga_untag0_8TeV_19.7fb-1_124.7GeV_0558111.txt                                                
+  44  CMS_H-gaga_untag1_7TeV_5.0fb-1_124.7GeV_0558102.txt                                                 
+  45  CMS_H-gaga_untag1_8TeV_19.7fb-1_124.7GeV_0558112.txt                                                
+  46  CMS_H-gaga_untag2_7TeV_5.0fb-1_124.7GeV_0558103.txt                                                 
+  47  CMS_H-gaga_untag2_8TeV_19.7fb-1_124.7_0558113.txt                                                   
+  48  CMS_H-gaga_untag3_7TeV_5.0fb-1_124.7GeV_0558104.txt                                                 
+  49  CMS_H-gaga_untag3_8TeV_19.7fb-1_124.7GeV_0558114.txt                                                
+  50  CMS_H-gaga_untag4_8TeV_19.7fb-1_124.7GeV_0558115.txt                                                
+  51  CMS_H-gaga_VBF-dijet0_7TeV_5.0fb-1_124.7GeV_0558105.txt                                             
+  52  CMS_H-gaga_VBF-dijet0_8TeV_19.7fb-1_124.7GeV_0558116.txt                                            
+  53  CMS_H-gaga_VBF-dijet1_7TeV_5.0fb-1_124.7GeV_0558106.txt                                             
+  54  CMS_H-gaga_VBF-dijet1_8TeV_19.7fb-1_124.7GeV_0558117.txt                                            
+  55  CMS_H-gaga_VBF-dijet2_8TeV_19.7fb-1_124.7GeV_0558118.txt                                            
+  56  CMS_H-gaga_VH-dijet_7TeV_5.0fb-1_124.7GeV_0558109.txt                                               
+  57  CMS_H-gaga_VH-dijet_8TeV_19.7fb-1_124.7GeV_0558122.txt                                              
+  58  CMS_H-gaga_VH-ETmiss_7TeV_5.0fb-1_124.7GeV_0558108.txt                                              
+  59  CMS_H-gaga_VH-ETmiss_8TeV_19.7fb-1_124.7GeV_0558121.txt                                             
+  60  CMS_H-gaga_VH-loose_7TeV_5.0fb-1_124.7GeV_0558107.txt                                               
+  61  CMS_H-gaga_VH-loose_8TeV_19.7fb-1_124.7GeV_0558120.txt                                              
+  62  CMS_H-gaga_VH-tight_8TeV_19.7fb-1_124.7GeV_0558119.txt                                              
+  63  CMS_H-mumu_7-8TeV_5.0fb-1_19.7fb-1_125.7GeV_13007101.txt                                            
+  64  CMS_H-tautau_0jet_7-8TeV_4.9fb-1_19.7fb-1_125.0GeV_13004101.txt                                     
+  65  CMS_H-tautau_1jet_7-8TeV_4.9fb-1_19.7fb-1_125.0GeV_13004102.txt                                     
+  66  CMS_H-WW_0-1jet_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112911.txt                                         
+  67  CMS_H-WW_VBF_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112912.txt                                            
+  68  CMS_H-ZZ_0-1jet_7-8TeV_5.1fb-1_19.6fb-1_125.7GeV_14009101.txt                                       
+  69  CMS_H-ZZ_2jet_7-8TeV_5.1fb-1_19.6fb-1_125.7GeV_14009102.txt                                         
+  70  CMS_ttH-2leptons_8TeV_19.6fb-1_125.6GeV_1682104.txt                                                 
+  71  CMS_ttH-3leptons_8TeV_19.6fb-1_125.6GeV_1682105.txt                                                 
+  72  CMS_ttH-4leptons_8TeV_19.6fb-1_125.6GeV_1682106.txt                                                 
+  73  CMS_ttH-bb_7-8TeV_5.0fb-1_19.5fb-1_125.6GeV_1682102.txt                                             
+  74  CMS_ttH-gaga_8TeV_19.6fb-1_125.6GeV_1682101.txt                                                     
+  75  CMS_ttH-tautau_7-8TeV_5.0fb-1_19.5fb-1_125.6GeV_1682103.txt                                         
+  76  CMS_VBF-tautau_7-8TeV_4.9fb-1_19.7fb-1_125.0GeV_13004104.txt                                        
+  77  CMS_VH-bb_7-8TeV_5.0fb-1_19.0fb-1_125.0GeV_13012101.txt                                             
+  78  CMS_VH-bb_7-8TeV_5.0fb-1_19.0fb-1_13012201.txt                                                      
+  79  CMS_VH-tautau_7-8TeV_5.0fb-1_19.5fb-1_125.7GeV_13004103.txt                                         
+  80  CMS_VH-WW_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112913.txt                                               
+  81  CMS_VH-WW_hadronicV_7-8TeV_4.9fb-1_19.5fb-1_125.0GeV_13017101.txt                                   
+  82  CMS_WH-WW_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112914.txt                                               
+  83  D0_H-bb_1.96TeV_9.7fb-1_125GeV_1303082314.txt                                                       
+  84  D0_H-gaga_1.96TeV_9.7fb-1_125GeV_1303082311.txt                                                     
+  85  D0_H-tautau_1.96TeV_9.7fb-1_125GeV_1303082313.txt                                                   
+  86  D0_H-WW_1.96TeV_9.7fb-1_125GeV_1303082312.txt                                                       
+ Warning: The 'both' method (runmode = 3) is currently under development.
+          The peak-centered chi^2 method will be used instead.
+  The matrix is singular, no solution !
+  The matrix is singular, no solution !
+  The matrix is singular, no solution !

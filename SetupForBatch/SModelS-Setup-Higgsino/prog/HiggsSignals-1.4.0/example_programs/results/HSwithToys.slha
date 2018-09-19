@@ -1,0 +1,15 @@
+BLOCK HiggsSignalsResults
+    0                 ||1.4.0||               # HiggsSignals version
+    1         ||latestresults||               # experimental data set
+    2                         1               # Chi-squared method ("peak"(1) or "mass"(2)-centered or "both"(3))
+    3                         2               # Parametrization of Higgs mass uncertainty (1:box, 2:gaussian, 3:box+gaussian)
+    4                        85               # Number of signal strength peak observables
+    5                         4               # Number of Higgs mass peak observables
+    6                         0               # Number of mass-centered observables
+    7                        89               # Number of observables (total)
+    8               14.09802241               # chi^2 from signal strength peak observables
+    9                0.00000000               # chi^2 from Higgs mass peak observables
+   10                0.00000000               # chi^2 from mass-centered observables
+   11               14.09802241               # chi^2 from signal strength (total)
+   12               14.09802241               # chi^2 (total)
+   13                1.00000000               # Probability (total chi^2, total number observables)

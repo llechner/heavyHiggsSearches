@@ -1,0 +1,102 @@
+ ------------------------------------------------------------------------------
+ FeynHiggs 2.13.0
+ built on Apr 04, 2017
+ H. Bahl, T. Hahn, S. Heinemeyer, W. Hollik, S. Passehr, H. Rzehak, G. Weiglein
+ http://feynhiggs.de
+ ------------------------------------------------------------------------------
+mssmpart = 4       # full MSSM [recommended]                               
+fieldren = 0       # DRbar field ren. [strongly recommended]               
+tanbren = 0        # DRbar TB-ren. [strongly recommended]                  
+higgsmix = 2       # 2x2 (h0-HH) mixing in the neutral Higgs sector        
+p2approx = 4       # no approx., UHiggs evaluated at p^2 = 0 [recommended] 
+looplevel = 2      # include 2L corrections                                
+loglevel = 0       # no log resummation                                    
+runningMT = 1      # use running top mass (SM MSbar 2L)                    
+botResum = 1       # resummed 1L-MB in 1L/2L corrections [recommended]     
+tlCplxApprox = 0   # all corrections evaluated in the rMSSM                
+ % invAlfa0 defaults to    137.03598950000000     
+ % invAlfaMZ defaults to    128.94474239223720     
+ % AlfasMZ defaults to   0.11799999999999999     
+ % GF defaults to    1.1663900000000000E-005
+ % ME defaults to    5.1099890200000000E-004
+ % MM defaults to   0.10565835699999999     
+ % ML defaults to    1.7770300000000001     
+ % MU defaults to    3.0000000000000001E-003
+ % MC defaults to    1.2860000000000000     
+ % MD defaults to    6.0000000000000001E-003
+ % MS defaults to    9.5000000000000001E-002
+ % MB defaults to    4.2000000000000002     
+ % MW defaults to    80.385000000000005     
+ % MZ defaults to    91.187600000000003     
+ % GammaW defaults to    2.1179999999999999     
+ % GammaZ defaults to    2.4952000000000001     
+ % CKMlambda defaults to   0.22530000000000000     
+ % CKMA defaults to   0.80800000000000005     
+ % CKMrhobar defaults to   0.13200000000000001     
+ % CKMetabar defaults to   0.34100000000000003     
+ % M3SQ defaults to MSusy
+ % M2SQ defaults to MSusy
+ % M1SQ defaults to MSusy
+ % M3SU defaults to MSusy
+ % M2SU defaults to MSusy
+ % M1SU defaults to MSusy
+ % M3SD defaults to MSusy
+ % M2SD defaults to MSusy
+ % M1SD defaults to MSusy
+ % M3SL defaults to MSusy
+ % M2SL defaults to MSusy
+ % M1SL defaults to MSusy
+ % M3SE defaults to MSusy
+ % M2SE defaults to MSusy
+ % M1SE defaults to MSusy
+ % Qtau defaults to    0.0000000000000000     
+ % Qt defaults to    0.0000000000000000     
+ % Qb defaults to    0.0000000000000000     
+ % scalefactor defaults to    1.0000000000000000     
+ % prodSqrts defaults to    14.000000000000000     
+ % M_1 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % Ac defaults to At
+ % Au defaults to Ac
+ % Ab defaults to At
+ % As defaults to Ab
+ % Ad defaults to As
+ % Atau defaults to At
+ % Amu defaults to Atau
+ % Ae defaults to Amu
+ % deltaLLL12 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaLLL23 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaLLL13 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaELR12 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaELR23 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaELR13 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaERL12 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaERL23 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaERL13 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaERR12 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaERR23 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaERR13 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaQLL12 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaQLL23 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaQLL13 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaULR12 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaULR23 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaULR13 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaURL12 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaURL23 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaURL13 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaURR12 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaURR23 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaURR13 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaDLR12 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaDLR23 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaDLR13 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaDRL12 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaDRL23 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaDRL13 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaDRR12 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaDRR23 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ % deltaDRR13 defaults to  (  0.0000000000000000     ,  0.0000000000000000     )
+ FHHiggsCorr contains code by:
+ P. Slavich et al. (2L rMSSM Higgs self-energies)
+ H. Rzehak et al. (2L cMSSM asat Higgs self-energies)
+ S. Passehr et al. (2L cMSSM atat Higgs self-energies)

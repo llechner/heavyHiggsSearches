@@ -1,0 +1,17 @@
+SetDesc: "MMHT 2014 NNLO (range of mc, evolve with 3 flavours). This set has 9 member PDFs. mem=0 --> default mc = 1.40 GeV; mem=1-8 --> mc = 1.15 - 1.55 GeV in steps of 0.05 GeV. Website: www.hep.ucl.ac.uk/mmht"
+SetIndex: 25800
+Authors: L.A. Harland-Lang, A. D. Martin, P. Motylinski and R. S. Thorne
+Reference: arXiv:1510.02332
+Format: lhagrid1
+DataVersion: 2
+NumMembers: 9
+Particle: 2212
+Flavors: [-3, -2, -1, 1, 2, 3, 21]
+OrderQCD: 2
+FlavorScheme: variable
+NumFlavors: 3
+XMin: 1e-06
+XMax: 1
+QMin: 1
+QMax: 31622.8
+MZ: 91.1876
